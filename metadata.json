@@ -1,0 +1,6 @@
+{
+  "name": "HQ Gamer 24 180Hz - Monitor Gamer White Edition",
+  "description": "Landing page oficial do Monitor Gamer HQ 24\" 180Hz com tempo de resposta ultrarrápido, base ergonômica e conexões de vídeo de alta performance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
