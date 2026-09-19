@@ -1,11 +1,15 @@
 import { PortDetail, SpecGroup, ErgonomicFeature, BundleOption, ReviewItem } from '../types';
+import heroImage from '../assets/images/monitor_gamer_hero_1789830861659.jpg';
+import baseImage from '../assets/images/monitor_stand_base_1789830874056.jpg';
+import portsImage from '../assets/images/monitor_video_ports_1789830886353.jpg';
+import sideImage from '../assets/images/monitor_side_view_1789830900610.jpg';
 
-// Real generated high-res visual assets based on user's reference
+// Real high-res visual assets bundled for development and production (Vercel)
 export const MONITOR_IMAGES = {
-  hero: '/src/assets/images/monitor_gamer_hero_1789830861659.jpg',
-  base: '/src/assets/images/monitor_stand_base_1789830874056.jpg',
-  ports: '/src/assets/images/monitor_video_ports_1789830886353.jpg',
-  side: '/src/assets/images/monitor_side_view_1789830900610.jpg',
+  hero: heroImage,
+  base: baseImage,
+  ports: portsImage,
+  side: sideImage,
 };
 
 export const PORTS_DATA: PortDetail[] = [
